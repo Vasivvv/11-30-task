@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function text(word, n) {
+            let count = 0
+            for (let i = 0; i < word.length; i++) {
+                if (word[i] == 'n' || word[i] == 'N') {
+                    count++
+                }
+            }
+            return count
+        }
+        console.log("n in 'akula Necesen' " + text("akula Necesen", 'n'))
+    </script>
+</body>
+
+</html>
